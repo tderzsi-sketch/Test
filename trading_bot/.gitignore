@@ -1,0 +1,28 @@
+# Environment and secrets — NEVER commit this
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs and charts (auto-generated at runtime)
+logs/*.log
+logs/*.png
+
+# pytest cache
+.pytest_cache/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
